@@ -378,7 +378,7 @@ namespace Streamish.Repositories
             }
         }
 
-        public List<Video> Hottest(DateTime date, bool sortDescending)
+        public List<Video> Hottest(string date, bool sortDescending)
         {
             using (var conn = Connection)
             {
