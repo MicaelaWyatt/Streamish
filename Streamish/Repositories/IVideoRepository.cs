@@ -12,6 +12,7 @@ namespace Streamish.Repositories
         Video GetById(int id);
         List<Video> GetAllWithComments();
         Video GetVideoByIdWithComments(int id);
+        List<Video> GetAllVideosFromUserById(int id);
         void Update(Video video);
         List<Video> Search(string criterion, bool sortDescending);
         List<Video> Hottest(string date, bool sortDescending);

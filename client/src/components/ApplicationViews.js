@@ -18,6 +18,9 @@ const ApplicationViews = () => {
             <Route path="/videos/:id">
                 <VideoDetails />
             </Route>
+            <Route path="/users/:id">
+                <VideoDetails />
+            </Route>
         </Switch>
     );
 };
